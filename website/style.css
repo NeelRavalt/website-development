@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+   justify-content: space-around;
+   background: #FFC017  ;
+   height:10vh;
+   align-items: center;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.774);
+
+}
+.logo{
+    width: 112px;
+    display: flex;
+}
+nav,a{
+text-decoration: none;
+list-style: none;
+padding: 21px; 
+list-style-type: lower-roman;
+font-size: larger; 
+}
+button{
+    margin-left: 34px;
+    border-radius: 23px;
+    background-color: darkblue;
+    color: white;
+    padding: 3px;
+   
+}
+aside{
+    padding: 61px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    
+}
+aside :nth-child(1){
+    /* position: relative;
+    
+    flex-direction: column; */
+    
+
+    
+}
+aside> :nth-child(2){
+   
+   
+    display: flex;
+    
+   flex-direction: row;
+margin-left: 50%;
+
+    
+}
