@@ -30,28 +30,68 @@ button{
     padding: 3px;
    
 }
-aside{
-    padding: 61px;
+.artical{
+   
     background-color: aqua;
-    display: flex;
-    align-items: center;
+   display: flex;
+    justify-content: space-evenly;
+    
+    align-items:center ;
     
 }
-aside :nth-child(1){
-    /* position: relative;
-    
-    flex-direction: column; */
-    
 
-    
-}
-aside> :nth-child(2){
-   
-   
-    display: flex;
-    
-   flex-direction: row;
-margin-left: 50%;
 
-    
+.hero_grid{
+    display: grid;
+    font-size: 24px;
+   grid-template-columns: repeat(3,1fr);
+   gap: 22%;
 }
+.grid_column1{
+ justify-content: space-between;   
+}
+.hedd{
+    font-size: 24px;
+}
+.hero_news{
+
+    width: 100%;
+
+   margin-top: 100px;
+  top: 539px;
+
+  height:350px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.content-2{
+    display: grid;
+    /* grid-template-columns: 1fr 0.6fr ; */
+ grid-template-columns: repeat(1 ,2fr);
+   
+
+}
+.right{
+    padding-left: 2%;
+}
+
+/* .sidebar{
+    display: flex;
+    flex-direction: column;
+} */
+/* 
+main{
+
+    width: 100%;
+       border-top: 1px solid black;
+       position: absolute;
+       top: 880px;
+       margin-top: 100px;
+       display: grid;
+       
+       overflow: visible;
+      
+      
+   } */
