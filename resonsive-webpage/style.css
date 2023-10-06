@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.parent {
+    position: relative; /* Relative positioning for the parent */
+  }
+  
+  .sidebar {
+    position: absolute; /* Absolute positioning for the sidebar */
+    top: 0; /* Adjust the top position as needed */
+    right: 0; /* Adjust the right position as needed */
+    width: 18rem;
+    background-color: #2947A9;
+    color: white;
+    padding: 20px;
+    opacity: 0.8; /* Adjust opacity as needed */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .parent {
+      text-align: center; /* Center-align content on smaller screens */
+    }
+     .sidebar {
+      position: static; /* Reset position for small screens */
+       width: 100%;
+      margin-top: 20px; 
+    } 
+  }
+  
+  .card {
+    justify-content: center;
+   align-items: center;
+}
+
+  aside{
+    justify-self: end;
+  }
+  button{
+    
+    background-color: none;
+    background-color: transparent;
+    border: 2px solid white; 
+    color: white; 
+    padding-left: 34px;
+  }
+  .btn{
+    margin-left: 9%;
+    
+}
+/* Default styles */
+
+.bg-image {
+  background-image: url('background\ image.png'); /* Add your background image URL */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  color: white;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 63px;
+}
+
+.text {
+  color: aliceblue;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .bg-image {
+    padding: 10px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .btn {
+    margin-top: 10px;
+  }
+}
+
+.form-container{
+    justify-content: center;
+    align-items: center;
+}
+.form-container {
+    background-color: #F6F8F7;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 100vh; /* Set container height to fill the viewport */
+    text-align: center; /* Center text horizontally */
+    padding: 20px;
+  }
+  
+  /* Style your form elements as needed */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the submit button */
+  .btn-submit {
+    background-color: #2947A9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cards>h4{
+  font-style: Work Sans;
+  }
+  .cards{
+    display: flex;
+    justify-content: space-around;
+  }
+  article>.allcard{
+    display: grid;
+
+  }
+  ul>li{
+    text-decoration: none;
+list-style: none;
+font-style: italic;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .article {
+    display: flex;
+    flex-direction: column;
+  }
+  .allcard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed */
+  }
+  
+  .card {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust width and margin as needed */
+    margin-bottom: 20px; /* Add margin between cards */
+    width: 100%;
+  }
+  .social>img{
+    margin-left: 34px;
+  }
+  .cards>{
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  }
+  
